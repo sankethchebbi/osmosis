@@ -1,0 +1,50 @@
+# -------------------
+# Retype Pro
+# -------------------
+
+poweredByRetype: false
+
+breadcrumb:
+  home: ":icon-home:"
+
+toc:
+  label: On this page
+  depth: 2-4
+
+# New Hub link feature, but not used on retype.com
+# hub:
+# link: https://example.com/
+# alt: Go to example.com
+# target: _blank
+
+input: ./
+output: .retype
+url: retype.com
+
+branding:
+  title: Osmosis
+  label: v0.1
+
+generator:
+  paths: root
+
+links:
+  - text: Slack
+    link: https://google.com
+    icon: comment-discussion
+
+data:
+  abbreviations:
+    HTML: Hyper Text Markup Language
+    CSS: Cascading Style Sheet
+
+footer:
+  copyright: © Copyright {{ year }} – [Retype](https://retype.com/) – All rights reserved
+  links:
+    - text: About
+      link: about.md
+      icon: question
+
+    - text: License
+      link: license.md
+      icon: shield-check
